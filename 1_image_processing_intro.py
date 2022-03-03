@@ -7,4 +7,4 @@ msg = "hello world"
 cv2.imshow(msg, img)
 
 cv2.waitKey()
-cv2.destroyAllWindows() 
+cv2.destroyAllWindows()
