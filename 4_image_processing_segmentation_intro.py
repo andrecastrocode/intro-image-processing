@@ -1,6 +1,5 @@
 #intro to segmentation (grayscale, bw, thresholding)
 
-from re import S
 import cv2
 from cv2 import COLOR_BGR2GRAY
 from matplotlib import pyplot as plt
