@@ -1,5 +1,9 @@
-# intro-image-processing
+# Intro-image-processing
+Support scripts for basic image processing
 
-# install dependencies
+
+## Install dependencies
+
 sudo apt install python3 pip3
-pip install -r dependencies.txt
+
+pip3 install -r dependencies.txt
