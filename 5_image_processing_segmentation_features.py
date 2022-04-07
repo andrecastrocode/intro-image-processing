@@ -94,6 +94,7 @@ def demo_lines():
         x_2 = int(x0 - 1000 * (-b))
         y_2 = int(y0 - 1000 * (a))
         cv2.line(image, (x_1, y_1), (x_2, y_2), (255, 0, 0), 2)
+        
     # Show Final output
     plt.subplot(1, 2, 2)
     plt.imshow(image)

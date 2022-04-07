@@ -44,14 +44,13 @@ def demo_thresholding():
             plt.subplot(2,2,i+1),plt.plot(images2[i])
             plt.axvline(x=otsu1, color='r', linestyle='-')
             plt.xlim([0,256])
+        elif i == 3:
+            plt.subplot(2,2,i+1),plt.plot(images2[i])
+            plt.axvline(x=otsu2, color='r', linestyle='-')
+            plt.xlim([0,256])
         else:
-            if i == 3:
-                plt.subplot(2,2,i+1),plt.plot(images2[i])
-                plt.axvline(x=otsu2, color='r', linestyle='-')
-                plt.xlim([0,256])
-            else:
-                plt.subplot(2,2,i+1),plt.imshow(images2[i],'gray')
-                plt.xticks([]),plt.yticks([])
+            plt.subplot(2,2,i+1),plt.imshow(images2[i],'gray')
+            plt.xticks([]),plt.yticks([])
         plt.title(titles[i])
     plt.waitforbuttonpress()
     plt.close('all')
